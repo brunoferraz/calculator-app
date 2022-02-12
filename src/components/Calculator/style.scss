@@ -1,11 +1,17 @@
 .calculator_container{
-    height: 300px;
+    height: 500px;
     width: 400px;
-    background-color: burlywood;
+    // background-color: #556;
+    background: rgb(119,119,120);
+    background: linear-gradient(0deg, rgba(119,119,120,0.5) 0%, rgba(173,173,175,0.5) 90%, rgba(132,133,133,0.5) 100%);
     margin: auto;
     margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     align-content: space-around;
+    border: #777 solid 7px;
+    border-style: outset;
+    border-radius: 10px;
 }

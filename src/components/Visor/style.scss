@@ -1,5 +1,43 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./../../../public/assets/alarm_clock.ttf);
+  }
 .visor_container{
     width: 90%;
-    height: 20%;
-    background-color: dimgray;
+    height: 70px;
+    background-color: #666;
+    // font-family: "Wallpoet", sans-serif;
+    // font-family: "Orbitron", sans-serif;
+    font-family: "myFirstFont";
+    font-size: 2.8em;
+    position: relative;
+    // border-top: #555 solid 3px;
+    // border-left: #777 solid 3px;
+    // border-right: #555 solid 5px;
+    // border-bottom: #777 solid 5px;
+    border: #555 solid 5px;
+    border-style: inset;
+    margin-top: 70px;
+}
+.visor_topbar{
+    width: 100%;
+    height: 10px;
+    // background-color: #888;
+}
+.visor_frontground{
+    color:#111;
+    position: absolute;
+    top:0;
+    z-index: 1;
+    width: 98%;
+    text-align: right;
+    margin-top: 20px;
+}
+.visor_background{
+    color: rgba($color: #555, $alpha: 0.4);
+    position: absolute;
+    top:0;
+    width: 98%;
+    text-align: right;
+    margin-top: 20px;
 }

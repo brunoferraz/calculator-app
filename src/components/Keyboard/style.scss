@@ -1,12 +1,43 @@
 .keyboard_container{
     width: 90%;
-    height: 70%;
-    background-color: aquamarine;
+    height: 60%;
+    // background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    // padding:10px;
+
 }
 .number_container{
-    
+    // border: black solid 1px;
+    width: 55%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+    justify-content: space-between;
+    // flex-wrap: wrap;
+    // width: 60%;
+}
+.operator_container{
+    // border: red solid 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    // align-content: space-around;
+    width: 20%;
+    // height: 100%;
+}
+.otherbutton_containter{
+    // border: red solid 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // align-items: center;
+    // align-content: center;
+    justify-content: space-around;
+    width: 20%;
+    height: 100%;
+}
+.block_container{
+    margin-top: 5px;
 }
