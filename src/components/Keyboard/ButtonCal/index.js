@@ -5,8 +5,8 @@ import "./style.scss"
 const ButtonCal = (props) =>{
     return(
         <Fragment>
-            <div className={"button_cal_container"+props.className}>
-                <div className="button_cal">
+            <div className={"button_cal_container "+props.className}>
+                <div className={"button_cal "+props.className}>
                     {props.val}
                 </div>
             </div>
