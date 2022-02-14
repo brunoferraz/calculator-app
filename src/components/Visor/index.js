@@ -8,7 +8,7 @@ const Visor = ()=>{
             <div className="visor_container">
                 <div className="visor_topbar"></div>
                 <div className="visor_frontground">
-                    1111234567890
+                    0
                 </div>
                 <div className="visor_background">
                     0000000000000
