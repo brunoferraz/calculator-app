@@ -9,7 +9,7 @@
     // font-family: "Wallpoet", sans-serif;
     // font-family: "Orbitron", sans-serif;
     font-family: "myFirstFont";
-    font-size: 2.8em;
+    font-size: 2.2em;
     position: relative;
     // border-top: #555 solid 3px;
     // border-left: #777 solid 3px;
@@ -27,17 +27,36 @@
 .visor_frontground{
     color:#111;
     position: absolute;
-    top:0;
+    top:30px;
+    right: 5px;
     z-index: 1;
     width: 98%;
     text-align: right;
-    margin-top: 20px;
+    // margin-top: 25px;
 }
 .visor_background{
     color: rgba($color: #555, $alpha: 0.4);
     position: absolute;
-    top:0;
+    top:30px;
+    right: 5px;
     width: 98%;
     text-align: right;
-    margin-top: 20px;
+    // margin-top: 25px;
+}
+.visor_topbar_frontground{
+    position: absolute;
+    top:3px;
+    right: 10px;
+    width: 98%;
+    font-size: 0.6em;
+    text-align: right;
+}
+.visor_topbar_background{
+    color: rgba($color: #555, $alpha: 0.4);
+    position: absolute;
+    top:3px;
+    right: 10px;
+    width: 98%;
+    font-size: 0.6em;
+    text-align: right;
 }

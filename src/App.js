@@ -1,9 +1,12 @@
+import { RecoilRoot } from 'recoil';
 import './App.css';
 import Calculator from './components/Calculator';
 
 function App() {
   return (
-    <Calculator></Calculator>
+    <RecoilRoot>
+      <Calculator></Calculator>
+    </RecoilRoot>
   );
 }
 
