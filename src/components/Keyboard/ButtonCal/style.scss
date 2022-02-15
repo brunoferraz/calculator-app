@@ -33,13 +33,14 @@
     transform: scale(0.99);
 }
 .button_cal_container.button_AC{
-
+    background-image: linear-gradient(rgb(7, 7, 7), rgb(17, 17, 17)), radial-gradient(circle at bottom right, rgb(59, 59, 59), rgb(151, 153, 153));
 }
 .button_AC{
     line-height: 2em;
     background-image: none;
     font-size:  1.2em;
-    background-image: radial-gradient(circle at bottom right,rgb(96, 163, 152), rgb(68, 124, 114)), radial-gradient(circle at top left, rgb(120, 180, 170), rgb(40, 99, 88));
+    // background-image: radial-gradient(circle at bottom right,rgb(96, 163, 152), rgb(68, 124, 114)), radial-gradient(circle at top left, rgb(120, 180, 170), rgb(40, 99, 88));
+    background-image: radial-gradient(circle at bottom right,rgb(133, 96, 163), rgb(112, 57, 89)), radial-gradient(circle at top left, rgb(180, 120, 180), rgb(99, 40, 84));
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
